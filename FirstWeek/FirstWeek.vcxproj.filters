@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. MainGame">
+      <UniqueIdentifier>{92968386-87dc-43ac-98b3-51a9d82ff411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Headers">
+      <UniqueIdentifier>{e633bed7-ff18-4611-a211-a937ff7aae88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Headers\Andromeda">
+      <UniqueIdentifier>{6cfaef61-d715-47c1-9551-a331f94b6cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Managers">
+      <UniqueIdentifier>{682833a2-9e9a-49d1-b2fe-03914b8619eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scenes">
+      <UniqueIdentifier>{98796254-dcd4-400a-a5ef-fd44df11c48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scenes\Game">
+      <UniqueIdentifier>{a3337007-fe17-47b3-bcaf-858f739d1745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Objects">
+      <UniqueIdentifier>{300a759a-e5f7-433e-b149-94532fc0d07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Objects\Game">
+      <UniqueIdentifier>{af256f9e-3c84-43a0-9494-7e2c40e405cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Resources">
+      <UniqueIdentifier>{4516fe74-a65b-4b7d-b8ee-7121003e1d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Resources\Game">
+      <UniqueIdentifier>{eb527816-e716-4077-a2e1-bb7f3ed53dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Objects\Game\Bullet">
+      <UniqueIdentifier>{c7ea33a6-d130-4df1-b7d9-6c0a17018268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Objects\Game\Creature">
+      <UniqueIdentifier>{77719696-13e5-45d7-bbf0-62c559c8a412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Objects\Game\Creature\Monster">
+      <UniqueIdentifier>{f78acbdc-2f0e-4c97-844e-0ffd2784c543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Objects\Game\Bullet\Player">
+      <UniqueIdentifier>{39502bb0-718d-4b35-9a7e-d94296962d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Objects\Game\Bullet\Monster">
+      <UniqueIdentifier>{2e936803-7e2c-4aaf-aacd-8288e403d2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Objects\Game\Creature\Player">
+      <UniqueIdentifier>{e645de42-3911-4866-b539-cf627650e31e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FirstWeek.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99. Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>소스 파일\99. Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99. Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\02. Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\02. Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EditScene.h">
+      <Filter>소스 파일\02. Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\03. Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>소스 파일\04. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMesh.h">
+      <Filter>소스 파일\04. Resources\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>소스 파일\03. Objects\Game\Creature\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\03. Objects\Game\Creature\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>소스 파일\03. Objects\Game\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\03. Objects\Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="StraightBullet.h">
+      <Filter>소스 파일\03. Objects\Game\Bullet\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SqaureBullet.h">
+      <Filter>소스 파일\03. Objects\Game\Bullet\Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FirstWeek.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FirstWeek.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FirstWeek.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\02. Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\02. Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EditScene.cpp">
+      <Filter>소스 파일\02. Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\03. Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBase.cpp">
+      <Filter>소스 파일\04. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMesh.cpp">
+      <Filter>소스 파일\04. Resources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>소스 파일\03. Objects\Game\Creature\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\03. Objects\Game\Creature\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>소스 파일\03. Objects\Game\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\03. Objects\Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="StraightBullet.cpp">
+      <Filter>소스 파일\03. Objects\Game\Bullet\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SqaureBullet.cpp">
+      <Filter>소스 파일\03. Objects\Game\Bullet\Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

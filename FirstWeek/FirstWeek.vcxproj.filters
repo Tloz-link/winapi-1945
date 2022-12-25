@@ -39,24 +39,6 @@
     <Filter Include="소스 파일\04. Resources\Game">
       <UniqueIdentifier>{eb527816-e716-4077-a2e1-bb7f3ed53dae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\03. Objects\Game\Bullet">
-      <UniqueIdentifier>{c7ea33a6-d130-4df1-b7d9-6c0a17018268}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\03. Objects\Game\Creature">
-      <UniqueIdentifier>{77719696-13e5-45d7-bbf0-62c559c8a412}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\03. Objects\Game\Creature\Monster">
-      <UniqueIdentifier>{f78acbdc-2f0e-4c97-844e-0ffd2784c543}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\03. Objects\Game\Bullet\Player">
-      <UniqueIdentifier>{39502bb0-718d-4b35-9a7e-d94296962d0c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\03. Objects\Game\Bullet\Monster">
-      <UniqueIdentifier>{2e936803-7e2c-4aaf-aacd-8288e403d2a1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\03. Objects\Game\Creature\Player">
-      <UniqueIdentifier>{e645de42-3911-4866-b539-cf627650e31e}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FirstWeek.h">
@@ -89,9 +71,6 @@
     <ClInclude Include="Game.h">
       <Filter>소스 파일\00. MainGame</Filter>
     </ClInclude>
-    <ClInclude Include="TimeManager.h">
-      <Filter>소스 파일\01. Managers</Filter>
-    </ClInclude>
     <ClInclude Include="InputManager.h">
       <Filter>소스 파일\01. Managers</Filter>
     </ClInclude>
@@ -101,7 +80,7 @@
     <ClInclude Include="Scene.h">
       <Filter>소스 파일\02. Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="GameScene.h">
+    <ClInclude Include="DevScene.h">
       <Filter>소스 파일\02. Scenes\Game</Filter>
     </ClInclude>
     <ClInclude Include="EditScene.h">
@@ -110,35 +89,23 @@
     <ClInclude Include="Object.h">
       <Filter>소스 파일\03. Objects</Filter>
     </ClInclude>
-    <ClInclude Include="ObjectManager.h">
-      <Filter>소스 파일\01. Managers</Filter>
-    </ClInclude>
     <ClInclude Include="ResourceBase.h">
       <Filter>소스 파일\04. Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="LineMesh.h">
-      <Filter>소스 파일\04. Resources\Game</Filter>
     </ClInclude>
     <ClInclude Include="ResourceManager.h">
       <Filter>소스 파일\01. Managers</Filter>
     </ClInclude>
-    <ClInclude Include="Square.h">
-      <Filter>소스 파일\03. Objects\Game\Creature\Monster</Filter>
+    <ClInclude Include="Values.h">
+      <Filter>소스 파일\99. Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>소스 파일\03. Objects\Game\Creature\Player</Filter>
+    <ClInclude Include="TimeManager.h">
+      <Filter>소스 파일\01. Managers</Filter>
     </ClInclude>
-    <ClInclude Include="Creature.h">
-      <Filter>소스 파일\03. Objects\Game\Creature</Filter>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\04. Resources</Filter>
     </ClInclude>
-    <ClInclude Include="Bullet.h">
-      <Filter>소스 파일\03. Objects\Game\Bullet</Filter>
-    </ClInclude>
-    <ClInclude Include="StraightBullet.h">
-      <Filter>소스 파일\03. Objects\Game\Bullet\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="SqaureBullet.h">
-      <Filter>소스 파일\03. Objects\Game\Bullet\Monster</Filter>
+    <ClInclude Include="Sprite.h">
+      <Filter>소스 파일\04. Resources</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -179,7 +146,7 @@
     <ClCompile Include="Scene.cpp">
       <Filter>소스 파일\02. Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="GameScene.cpp">
+    <ClCompile Include="DevScene.cpp">
       <Filter>소스 파일\02. Scenes\Game</Filter>
     </ClCompile>
     <ClCompile Include="EditScene.cpp">
@@ -188,35 +155,17 @@
     <ClCompile Include="Object.cpp">
       <Filter>소스 파일\03. Objects</Filter>
     </ClCompile>
-    <ClCompile Include="ObjectManager.cpp">
-      <Filter>소스 파일\01. Managers</Filter>
-    </ClCompile>
     <ClCompile Include="ResourceBase.cpp">
       <Filter>소스 파일\04. Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="LineMesh.cpp">
-      <Filter>소스 파일\04. Resources\Game</Filter>
     </ClCompile>
     <ClCompile Include="ResourceManager.cpp">
       <Filter>소스 파일\01. Managers</Filter>
     </ClCompile>
-    <ClCompile Include="Square.cpp">
-      <Filter>소스 파일\03. Objects\Game\Creature\Monster</Filter>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\04. Resources</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>소스 파일\03. Objects\Game\Creature\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="Creature.cpp">
-      <Filter>소스 파일\03. Objects\Game\Creature</Filter>
-    </ClCompile>
-    <ClCompile Include="Bullet.cpp">
-      <Filter>소스 파일\03. Objects\Game\Bullet</Filter>
-    </ClCompile>
-    <ClCompile Include="StraightBullet.cpp">
-      <Filter>소스 파일\03. Objects\Game\Bullet\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="SqaureBullet.cpp">
-      <Filter>소스 파일\03. Objects\Game\Bullet\Monster</Filter>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일\04. Resources</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

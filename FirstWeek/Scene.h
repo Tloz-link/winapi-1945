@@ -1,5 +1,7 @@
 #pragma once
 
+class Object;
+
 class Scene
 {
 public:

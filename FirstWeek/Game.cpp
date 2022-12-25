@@ -31,9 +31,9 @@ void Game::Init(HWND hwnd)
 	GET_SINGLE(TimeManager)->Init();
 	GET_SINGLE(InputManager)->Init(hwnd);
 	GET_SINGLE(SceneManager)->Init();
-	GET_SINGLE(ResourceManager)->Init();
+	GET_SINGLE(ResourceManager)->Init(hwnd, fs::path(L"C:\\develop\\windowsAPI\\2d\\Resources"));
 
-	GET_SINGLE(SceneManager)->ChangeScene(SceneType::GameScene);
+	GET_SINGLE(SceneManager)->ChangeScene(SceneType::DevScene);
 }
 
 void Game::Update()
@@ -50,7 +50,7 @@ void Game::Render()
 	
 	{
 		wstring str = format(L"fps ({0}), dt ({1} ms)", fps, static_cast<int32>(deltaTime * 1000));
-		Utils::DrawText(_hdcBack, Pos{450, 10}, str);
+		Utils::DrawText(_hdcBack, Pos{650, 10}, str);
 	}
 
 	{

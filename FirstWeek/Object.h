@@ -1,5 +1,13 @@
 #pragma once
 
+enum class ObjectType
+{
+	None,
+	Monster,
+	Player,
+	Projectile,
+};
+
 class Object
 {
 public:

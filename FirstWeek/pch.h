@@ -4,6 +4,7 @@
 #include "Enums.h"
 #include "Types.h"
 #include "Utils.h"
+#include "Values.h"
 
 #include <windows.h>
 #include <vector>
@@ -14,4 +15,7 @@
 #include <algorithm>
 using namespace std;
 
+// C++20
 #include <format>
+#include <filesystem>
+namespace fs = std::filesystem;

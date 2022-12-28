@@ -45,6 +45,8 @@ void Game::Update()
 
 void Game::Render()
 {
+	GET_SINGLE(SceneManager)->Render(_hdcBack);
+
 	float deltaTime = GET_SINGLE(TimeManager)->GetDeltaTime();
 	uint32 fps = GET_SINGLE(TimeManager)->GetFps();
 	
@@ -56,10 +58,8 @@ void Game::Render()
 	{
 		POINT mousePos = GET_SINGLE(InputManager)->GetMousePos();
 		wstring str = format(L"Mouse ({0}, {1})", mousePos.x, mousePos.y);
-		Utils::DrawTextW(_hdcBack, Pos{20, 10}, str);
+		Utils::DrawText(_hdcBack, Pos{20, 10}, str);
 	}
-
-	GET_SINGLE(SceneManager)->Render(_hdcBack);
 
 	::BitBlt(_hdc, 0, 0, _rect.right, _rect.bottom, _hdcBack, 0, 0, SRCCOPY);
 	::PatBlt(_hdcBack, 0, 0, _rect.right, _rect.bottom, WHITENESS);

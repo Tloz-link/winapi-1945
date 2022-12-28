@@ -19,3 +19,5 @@ using namespace std;
 #include <format>
 #include <filesystem>
 namespace fs = std::filesystem;
+
+#pragma comment(lib, "msimg32.lib")

@@ -54,6 +54,6 @@ private:
 private:
 	vector<KeyState> _states;
 	HWND _hwnd = 0;
-	POINT _mousePos;
+	POINT _mousePos = {};
 };
 

@@ -16,6 +16,13 @@ public:
 
 private:
 	SceneType _type = SceneType::None;
-	class Scene* _scene;
+	class Scene* _scene = {};
+
+public:
+	Vec2 GetCameraPos() { return _cameraPos; }
+	void SetCameraPos(Vec2 pos) { _cameraPos = pos; }
+
+private:
+	Vec2 _cameraPos = {0, 0};
 };
 
